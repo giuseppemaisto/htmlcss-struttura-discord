@@ -41,6 +41,10 @@ span{
     width: 40%;
     border: 1px dashed black;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
 .login{
@@ -49,4 +53,12 @@ span{
     width: 20%;
     border: 1px dashed black;
     text-align: end;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    
+}
+li{
+    width: calc(100% / 5);
 }
