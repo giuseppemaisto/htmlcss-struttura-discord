@@ -59,6 +59,18 @@ ul{
     display: flex;
     
 }
-li{
-    width: calc(100% / 5);
+
+.blu{
+    width: 100%;
+    height: 400px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.pink-blu{
+    width: 50%;
+    height: 350px;
+    background-color: plum;
 }
